@@ -1,0 +1,26 @@
+.header {
+    background: var(--color-white);
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0.8rem;
+    height: 4.6rem;
+    width: 100%;    
+    margin: 0 auto 4rem;
+    box-shadow: 0 0.5rem 0.5rem var(--color-light-dark);
+    display: flex;    
+}
+
+.header__title {
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+.header__logo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}

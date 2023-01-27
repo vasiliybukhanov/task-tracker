@@ -1,0 +1,54 @@
+{
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "root": true,
+    "rules": {
+        "indent": [
+            "warn",
+            2
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "jsx-quotes": [
+            "warn",
+            "prefer-double"
+        ],
+        "array-element-newline": [
+            "warn",
+            {
+                "multiline": true,
+                "minItems": 4
+            }
+        ],
+        "no-multiple-empty-lines": [
+            "warn",
+            {
+                "max": 1,
+                "maxEOF": 0,
+                "maxBOF": 0
+            }
+        ],
+        "eol-last": [
+            "warn",
+            "always"
+        ],
+        "object-curly-spacing": [
+            "warn",
+            "always"
+        ]
+    }
+}

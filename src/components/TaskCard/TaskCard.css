@@ -1,0 +1,64 @@
+.task-card {
+    background: linear-gradient(to right, var( --color-primary) 1%, var(--color-background)) no-repeat;
+    background-size: 0% 100%;
+    box-shadow: 0.2rem 0.2rem 0.5rem var(--color-light-dark);
+    padding: 1.8rem;
+    border-radius: 2rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    transition: .3s;    
+}
+
+.task-card:hover {
+    cursor: pointer;
+    background-size: 80% 100%;
+    transition: 0.3s;    
+}
+
+.task-card__info {
+    flex-grow: 4;    
+}
+
+.task-card__completion-toggle-area {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-card__completion-toggle-area input[type="checkbox"] {
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 2rem;
+    height: 2rem;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+  }
+
+  .task-card__completion-toggle-area input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
+
+  .task-card__completion-toggle-area input[type="checkbox"]::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    transform: scale(0);
+    transition: transform 120ms ease-in-out;
+    box-shadow: inset 1rem 1rem var(--color-secondary);
+
+    /* checkmark appearance */    
+    clip-path: polygon(21% 34%, 47% 59%, 83% 14%, 93% 26%, 48% 83%, 9% 49%);
+  }
+
+  .task-card__completion-toggle-area input[type="checkbox"]:checked::before {
+    transform: scale(4);
+  }
