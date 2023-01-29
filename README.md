@@ -27,7 +27,7 @@ npm run lint
 ```
 Run ESLint on source code files.
 
-## Completion progress:
+## Milestones:
 
 - [x] Create landing page with task list
 - [x] Create task page for detailed view
