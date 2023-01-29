@@ -1,0 +1,19 @@
+.react-datepicker {
+    font-family: poppins, sans-serif;
+}
+
+.react-datepicker__day--selected {
+    background-color: var(--color-secondary);
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: var(--color-secondary);
+}
+
+.react-datepicker__input-container input[type="text"] {
+    font-family: poppins, sans-serif;
+    height: 2rem;
+    padding-left: 1rem;
+    width: 100%;
+    border-radius: 0.3rem;
+}

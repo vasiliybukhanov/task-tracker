@@ -30,8 +30,9 @@ Run ESLint on source code files.
 ## Completion progress:
 
 - [ ] Add create-read-update-delete and mark-as-done functionality
+- [ ] Add media queries
 - [ ] Add Redux
 - [ ] Add LocalStorage sync
 - [ ] Add 'Filters' section
 - [ ] Add pagination functionality
-- [ ] Add Trash bin page
+- [ ] Add Trash bin page with routing

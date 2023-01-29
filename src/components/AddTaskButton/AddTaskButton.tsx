@@ -7,8 +7,11 @@ export const AddTaskButton = () => {
   };
 
   return (
-    <button className="add-task-button" onClick={onClick}>
-      <img src={addIcon} alt="add task" className="add-task-button__icon"/>
+    <button className="add-task-button"
+      onClick={onClick}>
+      <img src={addIcon}
+        alt="add task"
+        className="add-task-button__icon"/>
     </button>
   );
 };

@@ -7,4 +7,4 @@ const defaultOptions: Intl.DateTimeFormatOptions =  {
 };
 
 export const formatDate = (date: Date) =>
-  date.toLocaleDateString(defaultLocale, defaultOptions); 
+  date.toLocaleDateString(defaultLocale, defaultOptions);
