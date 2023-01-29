@@ -1,0 +1,30 @@
+.home-page-body {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;  
+  gap: 1.8rem;
+  grid-template-columns: auto 25rem;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+  .home-page-body {
+    grid-template-columns: 1fr;    
+  }
+
+  .home-page-body aside {
+    display: none;
+  }
+}
+  
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .home-page-body {
+    grid-template-columns: auto 18rem;
+  }
+}
+
+aside {
+  align-self: start;
+  position: sticky;
+  top: 5.5rem;
+}

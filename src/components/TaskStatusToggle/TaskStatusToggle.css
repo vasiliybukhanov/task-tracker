@@ -1,0 +1,34 @@
+.task-status-toggle input[type="checkbox"] {
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 2rem;
+    height: 2rem;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+  }
+
+  .task-status-toggle input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
+
+  .task-status-toggle input[type="checkbox"]::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    transform: scale(0);
+    transition: transform 120ms ease-in-out;
+    box-shadow: inset 1rem 1rem var(--color-secondary);
+
+    /* checkmark appearance */    
+    clip-path: polygon(23% 45%, 45% 69%, 78% 17%, 87% 32%, 47% 87%, 9% 55%);
+  }
+
+  .task-status-toggle input[type="checkbox"]:checked::before {
+    transform: scale(4);
+  } 

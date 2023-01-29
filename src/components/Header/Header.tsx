@@ -3,6 +3,7 @@ import logo from '../../assets/images/logo.png';
 import filterImage from '../../assets/images/filter.svg';
 
 export const Header = () => {
+
   return (
     <header className="header">
       <div className="header-info">

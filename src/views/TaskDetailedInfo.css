@@ -1,0 +1,36 @@
+.task-info-page-body {
+    margin: 4rem auto 2rem;
+    font-size: 1.2rem;
+    width: 65%;
+}
+
+.nav-link {
+    margin: 2rem 0;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+.task-info-wrapper {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.task-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.task-title {
+    margin-right: 8rem;
+}
+
+.task-dates-section {
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    gap: 2.5rem;
+    margin: 2rem 0;;
+}

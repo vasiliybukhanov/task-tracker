@@ -23,10 +23,6 @@
             "warn",
             "always"
         ],
-        "jsx-quotes": [
-            "warn",
-            "prefer-double"
-        ],
         "array-element-newline": [
             "warn",
             {
@@ -50,7 +46,21 @@
             "warn",
             "always"
         ],
+        "object-curly-newline": [
+            "warn",
+            {
+                "consistent": true
+            }
+        ],
         "no-trailing-spaces": "warn",
+        "space-infix-ops": [
+            "warn"
+        ],
+        "no-multi-spaces": "warn",
+        "jsx-quotes": [
+            "warn",
+            "prefer-double"
+        ],
         "react/jsx-max-props-per-line": [
             1,
             {

@@ -8,6 +8,7 @@
   --color-light-dark: rgba(0, 0, 0, 0.18);
   --color-info-dark: #7d8da1;
   --color-background: #f6f6f9;
+  --color-link-visited: #551a8b;
 }
 
 * {
@@ -35,12 +36,9 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  display: grid;
+main { 
   width: 80%;
-  margin: 0 auto;  
-  gap: 1.8rem;
-  grid-template-columns: auto 25rem;
+  margin: 0 auto;
 }
 
 img {
@@ -61,26 +59,10 @@ h3 {
   font-size: 0.87rem;
 }
 
-aside {
-  align-self: start;
-  position: sticky;
-  top: 5.5rem;
+a:link {
+  color: var(--color-black);
 }
 
-
-/* Media */
-@media screen and (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;    
-  }
-
-  main aside {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1200px) and (min-width: 768px) {
-  main {
-    grid-template-columns: auto 18rem;
-  }
+a:visited {
+  color: var(--color-link-visited);
 }
