@@ -29,10 +29,12 @@ Run ESLint on source code files.
 
 ## Completion progress:
 
-- [ ] Add create-read-update-delete and mark-as-done functionality
-- [ ] Add media queries
-- [ ] Add Redux
+- [x] Create landing page with task list
+- [x] Create task page for detailed view
+- [x] Add 'Filters' section mockup
+- [x] Add routing
+- [ ] Add state management with Redux
+- [ ] Add create-update-delete functionality
 - [ ] Add LocalStorage sync
-- [ ] Add 'Filters' section
 - [ ] Add pagination functionality
-- [ ] Add Trash bin page with routing
+- [ ] Add Trash bin page
